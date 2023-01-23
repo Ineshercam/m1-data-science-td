@@ -9,6 +9,9 @@ people = [
            facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
     Person(github_login='javanochka', first_name='Anna', last_name='Nikiforovskaja',
            facts=['I can meow like a cat', 'I am a PhD student', 'I am not Estonian']),
+    Person(github_login='ineshercam', first_name='Ines', last_name='Hernandez',
+            facts=['I can speak spanish', 'I am a master student', 'I can dance flamenco']
+                  ),
 ]
 #facts are numerated from 0
 answers = {'example': 1,
@@ -77,3 +80,4 @@ if __name__ == '__main__':
             run_cmd(sys.stdin.readline().strip())
         except Exception: # This is a VERY bad style. 
             continue
+
